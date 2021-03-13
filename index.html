@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Which room to go</title>
+  </head>
+  <body>
+    <img
+      src="https://it-kingdom.com/_next/image?url=%2Fimg%2Flogo.png&w=220&q=75"
+      alt=""
+      style="margin: 30px auto;"
+    />
+    <div class="container">
+      <div class="shaffle">
+        <button onClick="pick()">test</button>
+        <h3>
+          メンバーを<br />
+          ドラッグ&ドロップして<br />
+          Enter<br /><br />
+        </h3>
+        <textarea
+          name=""
+          id="textarea"
+          placeholder="メンバーをドラッグ&ドロップ"
+        ></textarea>
+        <textarea
+          class="editarea"
+          placeholder="選択肢編集用フィールド: "
+        ></textarea>
+        <p class="description">
+          選択肢を'@'で区切って、選択肢フィールドに貼り付けてEnterもできます!
+        </p>
+      </div>
+
+      <div class="room">
+        <div id="tags" class="tag__wrapper"></div>
+        <h4>次に向かうのは...</h4>
+        <h4>ソン・マサヨシ(6)</h4>
+        <div id="tags0" class="tag__wrapper"></div>
+        <h4>イーロン・マスク(6)</h4>
+        <div id="tags1" class="tag__wrapper"></div>
+        <h4>ザッカバーグ(6)</h4>
+        <div id="tags2" class="tag__wrapper"></div>
+        <h4>スティーブ・ジョブス(14)</h4>
+        <div id="tags3" class="tag__wrapper"></div>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
+    <script src="script_test.js"></script>
+  </body>
+</html>
